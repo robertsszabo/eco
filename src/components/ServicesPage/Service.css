@@ -1,0 +1,82 @@
+.serviceContainer {
+    height: 96vh;
+    max-height: 96vh;
+    width: 100vw;
+    max-width: 100vw;
+    position: relative;
+    scroll-snap-align: start;
+}
+
+.serviceContainer img {
+    height: 96vh;
+    max-height: 96vh;
+    width: 100vw;
+    max-width: 100vw;
+    z-index: 0;
+    position: absolute;
+    overflow: hidden;
+}
+
+.serviceContainer .serviceName {
+    color: #ffffff;
+    text-shadow: -0.05vh -0.05vh 0 #000, 0.05vh -0.05vh 0 #000, -0.05vh 0.05vh 0 #000, 0.05vh 0.05vh 0 #000;
+    padding-top: 20vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    font-size: 5vh;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.serviceContainer .serviceDescription {
+
+    color: #ffffff82;
+    text-shadow: -0.03vh -0.03vh 0 #000, 0.03vh -0.03vh 0 #000, -0.03vh 0.03vh 0 #000, 0.03vh 0.03vh 0 #000;
+    padding-top: 70vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    font-size: 3vh;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+    font-family: myFirstFont4;
+    font-variant: all-small-caps;
+    font-weight: bold;
+}
+
+/* width */
+.servicesContainer::-webkit-scrollbar {
+    width: 1vw;
+
+}
+
+/* Track */
+.servicesContainer::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0);
+    display: none;
+}
+
+/* Handle */
+.servicesContainer::-webkit-scrollbar-thumb {
+    background: rgb(14, 144, 88);
+}
+
+/* Handle on hover */
+.servicesContainer::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+@media (min-resolution:195dpi) {
+    .serviceContainer .serviceName {
+        padding-top: 5vh;
+    }
+    .serviceContainer .serviceDescription {
+        color: #ffffffd6;
+        padding-top: 40vh;
+    }
+    .servicesContainer::-webkit-scrollbar {
+        display: none;
+       
+    }
+}

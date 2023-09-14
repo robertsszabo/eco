@@ -1,0 +1,386 @@
+[
+    {
+        "id": 1,
+        "name": "Ristorat",
+        "price": 8.20,
+        "imageSource": "https://eco-sistem.ro/images/prod/SIR103.1.jpg",
+        "description": "se si echipamente de ultima generatie, ecologice, biodegradabile cu eficienta ",
+        "tags":["sajt"]
+    },
+    {
+        "id": 2,
+        "name": "AWB",
+        "price": 4.99,
+        "imageSource": "https://eco-sistem.ro/images/prod/SIR101.18.jpg",
+        "description": "se si echipamente de ultima generatie, ecologice, biodegradabile cu eficienta ",
+        "tags":["sajt"]
+    },
+    {
+        "id": 3,
+        "name": "Roddent Baiters",
+        "price": 4.28,
+        "imageSource": "https://eco-sistem.ro/images/prod/SIR101.5.jpg",
+        "description": "se si echipamente de ultima generatie, ecologice, biodegradabile cu eficienta ",
+        "tags":["sajt"]
+    },
+    {
+        "id": 4,
+        "name": "Bora",
+        "price": 20,
+        "imageSource": "https://eco-sistem.ro/images/prod/SIR102.2.jpg",
+        "description": "Statie de intoxicare din doua piese, prevazut cu doua compartimente, pentru utilizarea in zone uscate sau umede. Potrivita pentru momeli solide, lichide sau libere. Se poate aplica si folie adeziva in interiorul statiei de intoxicare. Utilizabil in toate domeniile.",
+        "tags":["sajt"]
+    },
+    {
+        "id": 5,
+        "name": "Penta Plastic",
+        "price": 8.20,
+        "imageSource": "https://eco-sistem.ro/images/prod/SIR10726.jpg",
+        "description": "se si echipamente de ultima generatie, ecologice, biodegradabile cu eficienta ",
+        "tags":["sajt"]
+    },
+    {
+        "id": 6,
+        "name": "Delta",
+        "price": 4.99,
+        "imageSource": "https://eco-sistem.ro/images/prod/SIR106.3.jpg",
+        "description": "se si echipamente de ultima generatie, ecologice, biodegradabile cu eficienta ",
+        "tags":["sajt"]
+    },
+    {
+        "id": 7,
+        "name": "Metal Easy",
+        "price": 11.99,
+        "imageSource": "https://eco-sistem.ro/images/prod/SIR105.2.jpg",
+        "description": "se si echipamente de ultima generatie, ecologice, biodegradabile cu eficienta ",
+        "tags":["sajt"]
+    },
+    {
+        "id": 8,
+        "name": "Prodiorat cub",
+        "price": 6.43,
+        "imageSource": "https://eco-sistem.ro/images/prod/ProdioratCub.jpg",
+        "description": "se si echipamente de ultima generatie, ecologice, biodegradabile cu eficienta ",
+        "tags":["sajt"]
+    },
+    {
+        "id": 9,
+        "name": "Alpha Tunnel",
+        "price": 2.97,
+        "imageSource": "https://eco-sistem.ro/images/prod/SIR-108.4.jpg",
+        "description": "Statie de intoxicare pentru otrava, din material plastic cu doua intrari, in forma de tunel, cu cheie. Potrivit in deratizare soareci si sobolani, atat pentru spatii din interior cat si pentru exterior. Se poate utiliza momeli cerate, pasta, momeala vrac sau otravuri lichide.",
+        "tags":["sajt"]
+    },
+    {
+        "id": 10,
+        "name": "Beta",
+        "price": 7.62,
+        "imageSource": "https://eco-sistem.ro/images/prod/SIR101.18.jpg",
+        "description": "Statie de intoxicare pentru rozatoare, din material plastic cu doua intrari, cu cheie. Potrivit in deratizare soareci si sobolani, atat pentru spatii din interior cat si pentru exterior Se pot utiliza momeli cerate, pasta, momeala vrac sau otravuri lichide. Statia de intoxicare este prevazuta cu sistem de fixare de perete",
+        "tags":["sajt"]
+    },
+    {
+        "id": 11,
+        "name": "model VE",
+        "price": 2.67,
+        "imageSource": "https://cdn.quicq.io/pm-d2ac76g66dj6h3/catalog/product/cache/1/image/450x450/9df78eab33525d08d6e5fb8d27136e95/c/a/capcana-sobolani-lemn-luna-1.jpg",
+        "description": "Statie de intoxicare din material plastic, cu doua intrari, prevazut cu doua compartimente, pentru utilizarea in zone uscate sau umede. Potrivita pentru momeli solide, lichide sau libere. Utilizabil in toate domeniile, atat pentru interior, cat si pentru exteior.",
+        "tags":["sajt"]
+    },
+    {
+        "id": 12,
+        "name": "AWB",
+        "price": 20,
+        "imageSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/McDonald%27s_Golden_Arches.svg/800px-McDonald%27s_Golden_Arches.svg.png",
+        "description": "se si echipamente de ultima generatie, ecologice, biodegradabile cu eficienta ",
+        "tags":["sajt"]
+    },
+    {
+        "id": 13,
+        "name": "Capcana Soareci",
+        "price": 8.20,
+        "imageSource": "https://cdn.quicq.io/pm-d2ac76g66dj6h3/catalog/product/cache/1/image/450x450/9df78eab33525d08d6e5fb8d27136e95/c/a/capcana-sobolani-lemn-luna-1.jpg",
+        "description": "se si echipamente de ultima generatie, ecologice, biodegradabile cu eficienta ",
+        "tags":["sajt"]
+    },
+    {
+        "id": 14,
+        "name": "Pulverizator Gloria 505T",
+        "price": 308.21,
+        "imageSource": "https://eco-sistem.ro/images/prod/ig103.jpg",
+        "description": "Acest pulverizator este un produs de calitate superioara din otel inoxidabil, capacitatea rezervorului de 5 litri, recomandat pentru uz profesional, timp indelungat, in domeniile sanitar, alimentar, industrie, agricultura si alte domenii. Aparatul este prevazut cu manometru, supapa de siguranta, supapa de golire a presiunii, suport pentru lance, lance din cupru, furtun pentru presiune inalta, diuza reglabila din cupru, garnituri din viton, sistem de protectie anti soc in partea inferioara si superioara a aparatului. Respectand normele utilizarii corecte, aparatul isi pastreaza calitatea si functionalitatea timp indelungat.Presiune maxima de exercitiu: 6 bari",
+        "tags":["sajt"]
+    },
+    {
+        "id": 15,
+        "name": "Pulverizator Mestro Plus V2A",
+        "price": 291.55,
+        "imageSource": "https://eco-sistem.ro/images/prod/ig104.jpg",
+        "description": "Material: otel inoxidabil, Capacitatea rezervorului: 5 litri Presiune maxima de exercitiu: 6 bari Aparatul este prevazut cu: manometru, supapa de siguranta, supapa de golire a presiunii, suport pentru lance, lance din cupru, furtun extensibil de 2.5 metri, diuza reglabila din cupru, garnituri din viton, sistem de protectie anti soc in partea inferioara si superioara a aparatului. Respectand normele utilizarii corecte, aparatul isi pastreaza calitatea si functionalitatea timp indelungat.",
+        "tags":["sajt"]
+    },
+    {
+        "id": 16,
+        "name": "AMB",
+        "price": 0.95,
+        "imageSource": "https://eco-sistem.ro/images/prod/AMB.jpg",
+        "description": "Statie de intoxicare stabila, constructie plata, cu doua intrari, cu doua compartimente, cu sistem de inchidere cu cheie. Se poate utiliza cu momeala gel (plic), solida, vrac. Utilizabil atat in interior, cat si exterior, chiar si in locuri mai umede.",
+        "tags":["sajt"]
+    },
+    {
+        "id": 17,
+        "name": "Placa Adeziva",
+        "price": 0.99,
+        "imageSource": "https://eco-sistem.ro/images/prod/CAM-173.jpg",
+        "description": "Este o placa adeziva cu continut de atractant pentru monitorizarea si capturarea rozatoarelor, fara a fi necesara utilizarea raticidelor ( otrava / momeala ). Adezivul special al capcanei este eficient chiar si la temperaturi joase si la alte conditii dificile de mediu. Capcana de unica folosinta poate fi aruncata dupa îndepartarea capturii. Se utilizeaza în locatii unde nu este posibila utilizarea raticidelor sau a altor substante de origine chimica cum ar fi: industria farmaceutica, industria alimentaral si alte locuri frecventate de copii sau animale. Se pozitioneaza în apropierea usilor, pe langa peretii depozitelor/ garajelor, in cantine, birouri si panourilor electrice etc. Se recomanda protejarea placii adezive de praf, astfel se prelungeste perioada activa a adezivului.",
+        "tags":["sajt"]
+    },
+    {
+        "id": 18,
+        "name": "Statie Intoxicare Carton",
+        "price": 0.20,
+        "imageSource": "https://eco-sistem.ro/images/prod/SIM126.1.jpg",
+        "description": "Statie de intoxicare/ cutie pentru otrava soareci cu doua intari, din carton cerat, stabil. Este prevazut cu orificiu de umplere cu momeala rodenticida in partea superioara. Potrivit pentru interior.",
+        "tags":["sajt"]
+    },
+    {
+        "id": 19,
+        "name": "Momeala Prokum pasta",
+        "price": 8.09,
+        "imageSource": "https://eco-sistem.ro/images/prod/prokum-pasta.jpg",
+        "description": "ACTIUNE: PROKUM PASTA este o momeala raticida pe baza de anticoagulant, pe suport de pasta. Brodifacoum-ul actioneaza prin blocarea procesului de sinteza a protrombinei si permeabilizarii peretelui vaselor capilare. Moartea survine dupa 48 ore de la ingerarea momelii. Momeala contine benzoat de denatonium (bitrex), o substanta foarte amara, care previne consumul accidental de catre alte animale. INDICATII: Pentru combaterea soarecilor si sobolanilor în locuinte, grajduri si cladiri agricole, gradini, depozite de deseuri, cazarmi, magazii, vagoane, containere si alte domenii cu risc de infestare. UTILIZARE: Se plaseaza momeala în galeriile active si locurile frecventate de soareci si sobolani sau în statii de intoxicare din plastic sau carton în locuri ferite de lumina si umezeala, pentru a evita contactul cu momeala al copiilor si animalelor domestice, în apropierea cailor de acces, a cuiburilor sau în locurile de hranire a sobolanilor. În cazul în care este posibil fixati momeala, astfel încât sa nu poata fi deplasat. Pentru combaterea sobolanilor produsul se amplaseaza în cantitate de 4 plicuri la distante de 5-10 m, iar în cazul soarecilor câte 1 plic la distante de 2-5 m. Momelile de Prokum Pasta se reînnoiesc pe masura ce se consuma la intervale de 3-4 zile, pana ce consumul înceteaza complet (2-3 saptamani). In masura în care consumul înceteaza, deratizarea se considera încheiata. Moartea sobolanilor si soarecilor survine dupa 48 de ore de la consum.",
+        "tags":["sajt"]
+    },
+    {
+        "id": 20,
+        "name": "Statie Intoxicare Carton",
+        "price": 0.18,
+        "imageSource": "https://eco-sistem.ro/images/prod/SIM-125.jpg",
+        "description": "Statie de intoxicare/ cutie pentru otrava soareci cu doua intari, din carton cerat, stabil. Potrivit pentru interior.",
+        "tags":["sajt"]
+    },
+    {
+        "id": 21,
+        "name": "Placa Adeziva Soareci",
+        "price": 1.07,
+        "imageSource": "https://eco-sistem.ro/images/prod/CAM-173-new.jpg",
+        "description": "Este o placa adeziva cu continut de atractant pentru monitorizarea si capturarea rozatoarelor, fara a fi necesara utilizarea raticidelor ( otrava / momeala ). Adezivul special al capcanei este eficient chiar si la temperaturi joase si la alte conditii dificile de mediu. Capcana de unica folosinta poate fi aruncata dupa îndepă rtarea capturii. Se utilizeaza în locatii unde nu este posibila utilizarea raticidelor sau a altor substante de origine chimica cum ar fi: industria farmaceutica, industria alimentaral si alte locuri frecventate de copii sau animale. Se pozitioneaza în apropierea usilor, pe langa peretii depozitelor/ garajelor, in cantine, birouri si panourilor electrice etc. Se recomanda protejarea placii adezive de praf, astfel se prelungeste perioada activa a adezivului.",
+        "tags":["sajt"]
+    },
+    {
+        "id": 22,
+        "name": "Procum Cub",
+        "price": 6.43,
+        "imageSource": "https://eco-sistem.ro/images/prod/Prokum-cub.jpg",
+        "description": "Pentru combaterea soarecilor si sobolanilor in spatii inchise cu grad ridicat de umiditate ex. locuinte, grajduri si cladiri agricole, cazarmi, magazii, vagoane, containere etc. respectiv in spatii deschise ex. gradini, depozite de deseuri, canalizari, scurgeri de apa, maluri de apa, locuri de depozitare a gunoaielor etc. Se amplaseaza in zone umede, unde celelalte tipuri de raticide nu pot fi folosite. PROBRODIRAT CUB PARAFINAT este o momeala raticida pe baza de anticoagulant, pe suport de cereale maruntite si parafinate. Brodifacoum-ul actioneaza prin blocarea procesului de sinteza a protrombinei si permeabilizarii peretelui vaselor capilare. Moartea survine dupa 48 de ore de la ingerarea momelii. Momeala contine benzoat de denatonium (bitrex), o substanta foarte amara, care previne consumul accidental de catre alte animale. Suportul de cereale este tratat termic, pentru combaterea gargaritei cerealelor. ",
+        "tags":["sajt"]
+    },
+    {
+        "id": 23,
+        "name": "Statie Intoxicare FINICON",
+        "price": 0.92,
+        "imageSource": "https://eco-sistem.ro/images/prod/DSCF0462.jpg",
+        "description": "Statie de intoxicare foarte simpla, material rezistent, prevazut cu doua intrari, cu cheie. Se utilizeaza momeli solide. Potrivit pentru pozitionare in colturile incaperilor. Se poate utiliza in toate domeniile atat interior cat si exterior. Material: plastic negru",
+        "tags":["sajt"]
+    },
+    {
+        "id": 24,
+        "name": "Statie Intoxicare Carton",
+        "price": 0.18,
+        "imageSource": "https://eco-sistem.ro/images/prod/SIM-125.jpg",
+        "description": "Statie de intoxicare/ cutie pentru otrava soareci cu doua intari, din carton cerat, stabil. Potrivit pentru interior.",
+        "tags":["sajt"]
+    },
+    {
+        "id": 1,
+        "name": "Ristorat",
+        "price": 8.20,
+        "imageSource": "https://eco-sistem.ro/images/prod/SIR103.1.jpg",
+        "description": "se si echipamente de ultima generatie, ecologice, biodegradabile cu eficienta ",
+        "tags":["sajt"]
+    },
+    {
+        "id": 2,
+        "name": "AWB",
+        "price": 4.99,
+        "imageSource": "https://eco-sistem.ro/images/prod/SIR101.18.jpg",
+        "description": "se si echipamente de ultima generatie, ecologice, biodegradabile cu eficienta ",
+        "tags":["sajt"]
+    },
+    {
+        "id": 3,
+        "name": "Roddent Baiters",
+        "price": 4.28,
+        "imageSource": "https://eco-sistem.ro/images/prod/SIR101.5.jpg",
+        "description": "se si echipamente de ultima generatie, ecologice, biodegradabile cu eficienta ",
+        "tags":["sajt"]
+    },
+    {
+        "id": 4,
+        "name": "Bora",
+        "price": 20,
+        "imageSource": "https://eco-sistem.ro/images/prod/SIR102.2.jpg",
+        "description": "Statie de intoxicare din doua piese, prevazut cu doua compartimente, pentru utilizarea in zone uscate sau umede. Potrivita pentru momeli solide, lichide sau libere. Se poate aplica si folie adeziva in interiorul statiei de intoxicare. Utilizabil in toate domeniile.",
+        "tags":["sajt"]
+    },
+    {
+        "id": 5,
+        "name": "Penta Plastic",
+        "price": 8.20,
+        "imageSource": "https://eco-sistem.ro/images/prod/SIR10726.jpg",
+        "description": "se si echipamente de ultima generatie, ecologice, biodegradabile cu eficienta ",
+        "tags":["sajt"]
+    },
+    {
+        "id": 6,
+        "name": "Delta",
+        "price": 4.99,
+        "imageSource": "https://eco-sistem.ro/images/prod/SIR106.3.jpg",
+        "description": "se si echipamente de ultima generatie, ecologice, biodegradabile cu eficienta ",
+        "tags":["sajt"]
+    },
+    {
+        "id": 7,
+        "name": "Metal Easy",
+        "price": 11.99,
+        "imageSource": "https://eco-sistem.ro/images/prod/SIR105.2.jpg",
+        "description": "se si echipamente de ultima generatie, ecologice, biodegradabile cu eficienta ",
+        "tags":["sajt"]
+    },
+    {
+        "id": 8,
+        "name": "Prodiorat cub",
+        "price": 6.43,
+        "imageSource": "https://eco-sistem.ro/images/prod/ProdioratCub.jpg",
+        "description": "se si echipamente de ultima generatie, ecologice, biodegradabile cu eficienta ",
+        "tags":["sajt"]
+    },
+    {
+        "id": 9,
+        "name": "Alpha Tunnel",
+        "price": 2.97,
+        "imageSource": "https://eco-sistem.ro/images/prod/SIR-108.4.jpg",
+        "description": "Statie de intoxicare pentru otrava, din material plastic cu doua intrari, in forma de tunel, cu cheie. Potrivit in deratizare soareci si sobolani, atat pentru spatii din interior cat si pentru exterior. Se poate utiliza momeli cerate, pasta, momeala vrac sau otravuri lichide.",
+        "tags":["sajt"]
+    },
+    {
+        "id": 10,
+        "name": "Beta",
+        "price": 7.62,
+        "imageSource": "https://eco-sistem.ro/images/prod/SIR101.18.jpg",
+        "description": "Statie de intoxicare pentru rozatoare, din material plastic cu doua intrari, cu cheie. Potrivit in deratizare soareci si sobolani, atat pentru spatii din interior cat si pentru exterior Se pot utiliza momeli cerate, pasta, momeala vrac sau otravuri lichide. Statia de intoxicare este prevazuta cu sistem de fixare de perete",
+        "tags":["sajt"]
+    },
+    {
+        "id": 11,
+        "name": "model VE",
+        "price": 2.67,
+        "imageSource": "https://cdn.quicq.io/pm-d2ac76g66dj6h3/catalog/product/cache/1/image/450x450/9df78eab33525d08d6e5fb8d27136e95/c/a/capcana-sobolani-lemn-luna-1.jpg",
+        "description": "Statie de intoxicare din material plastic, cu doua intrari, prevazut cu doua compartimente, pentru utilizarea in zone uscate sau umede. Potrivita pentru momeli solide, lichide sau libere. Utilizabil in toate domeniile, atat pentru interior, cat si pentru exteior.",
+        "tags":["sajt"]
+    },
+    {
+        "id": 12,
+        "name": "AWB",
+        "price": 20,
+        "imageSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/McDonald%27s_Golden_Arches.svg/800px-McDonald%27s_Golden_Arches.svg.png",
+        "description": "se si echipamente de ultima generatie, ecologice, biodegradabile cu eficienta ",
+        "tags":["sajt"]
+    },
+    {
+        "id": 13,
+        "name": "Capcana Soareci",
+        "price": 8.20,
+        "imageSource": "https://cdn.quicq.io/pm-d2ac76g66dj6h3/catalog/product/cache/1/image/450x450/9df78eab33525d08d6e5fb8d27136e95/c/a/capcana-sobolani-lemn-luna-1.jpg",
+        "description": "se si echipamente de ultima generatie, ecologice, biodegradabile cu eficienta ",
+        "tags":["sajt"]
+    },
+    {
+        "id": 14,
+        "name": "Pulverizator Gloria 505T",
+        "price": 308.21,
+        "imageSource": "https://eco-sistem.ro/images/prod/ig103.jpg",
+        "description": "Acest pulverizator este un produs de calitate superioara din otel inoxidabil, capacitatea rezervorului de 5 litri, recomandat pentru uz profesional, timp indelungat, in domeniile sanitar, alimentar, industrie, agricultura si alte domenii. Aparatul este prevazut cu manometru, supapa de siguranta, supapa de golire a presiunii, suport pentru lance, lance din cupru, furtun pentru presiune inalta, diuza reglabila din cupru, garnituri din viton, sistem de protectie anti soc in partea inferioara si superioara a aparatului. Respectand normele utilizarii corecte, aparatul isi pastreaza calitatea si functionalitatea timp indelungat.Presiune maxima de exercitiu: 6 bari",
+        "tags":["sajt"]
+    },
+    {
+        "id": 15,
+        "name": "Pulverizator Mestro Plus V2A",
+        "price": 291.55,
+        "imageSource": "https://eco-sistem.ro/images/prod/ig104.jpg",
+        "description": "Material: otel inoxidabil, Capacitatea rezervorului: 5 litri Presiune maxima de exercitiu: 6 bari Aparatul este prevazut cu: manometru, supapa de siguranta, supapa de golire a presiunii, suport pentru lance, lance din cupru, furtun extensibil de 2.5 metri, diuza reglabila din cupru, garnituri din viton, sistem de protectie anti soc in partea inferioara si superioara a aparatului. Respectand normele utilizarii corecte, aparatul isi pastreaza calitatea si functionalitatea timp indelungat.",
+        "tags":["sajt"]
+    },
+    {
+        "id": 16,
+        "name": "AMB",
+        "price": 0.95,
+        "imageSource": "https://eco-sistem.ro/images/prod/AMB.jpg",
+        "description": "Statie de intoxicare stabila, constructie plata, cu doua intrari, cu doua compartimente, cu sistem de inchidere cu cheie. Se poate utiliza cu momeala gel (plic), solida, vrac. Utilizabil atat in interior, cat si exterior, chiar si in locuri mai umede.",
+        "tags":["sajt"]
+    },
+    {
+        "id": 17,
+        "name": "Placa Adeziva",
+        "price": 0.99,
+        "imageSource": "https://eco-sistem.ro/images/prod/CAM-173.jpg",
+        "description": "Este o placa adeziva cu continut de atractant pentru monitorizarea si capturarea rozatoarelor, fara a fi necesara utilizarea raticidelor ( otrava / momeala ). Adezivul special al capcanei este eficient chiar si la temperaturi joase si la alte conditii dificile de mediu. Capcana de unica folosinta poate fi aruncata dupa îndepartarea capturii. Se utilizeaza în locatii unde nu este posibila utilizarea raticidelor sau a altor substante de origine chimica cum ar fi: industria farmaceutica, industria alimentaral si alte locuri frecventate de copii sau animale. Se pozitioneaza în apropierea usilor, pe langa peretii depozitelor/ garajelor, in cantine, birouri si panourilor electrice etc. Se recomanda protejarea placii adezive de praf, astfel se prelungeste perioada activa a adezivului.",
+        "tags":["sajt"]
+    },
+    {
+        "id": 18,
+        "name": "Statie Intoxicare Carton",
+        "price": 0.20,
+        "imageSource": "https://eco-sistem.ro/images/prod/SIM126.1.jpg",
+        "description": "Statie de intoxicare/ cutie pentru otrava soareci cu doua intari, din carton cerat, stabil. Este prevazut cu orificiu de umplere cu momeala rodenticida in partea superioara. Potrivit pentru interior.",
+        "tags":["sajt"]
+    },
+    {
+        "id": 19,
+        "name": "Momeala Prokum pasta",
+        "price": 8.09,
+        "imageSource": "https://eco-sistem.ro/images/prod/prokum-pasta.jpg",
+        "description": "ACTIUNE: PROKUM PASTA este o momeala raticida pe baza de anticoagulant, pe suport de pasta. Brodifacoum-ul actioneaza prin blocarea procesului de sinteza a protrombinei si permeabilizarii peretelui vaselor capilare. Moartea survine dupa 48 ore de la ingerarea momelii. Momeala contine benzoat de denatonium (bitrex), o substanta foarte amara, care previne consumul accidental de catre alte animale. INDICATII: Pentru combaterea soarecilor si sobolanilor în locuinte, grajduri si cladiri agricole, gradini, depozite de deseuri, cazarmi, magazii, vagoane, containere si alte domenii cu risc de infestare. UTILIZARE: Se plaseaza momeala în galeriile active si locurile frecventate de soareci si sobolani sau în statii de intoxicare din plastic sau carton în locuri ferite de lumina si umezeala, pentru a evita contactul cu momeala al copiilor si animalelor domestice, în apropierea cailor de acces, a cuiburilor sau în locurile de hranire a sobolanilor. În cazul în care este posibil fixati momeala, astfel încât sa nu poata fi deplasat. Pentru combaterea sobolanilor produsul se amplaseaza în cantitate de 4 plicuri la distante de 5-10 m, iar în cazul soarecilor câte 1 plic la distante de 2-5 m. Momelile de Prokum Pasta se reînnoiesc pe masura ce se consuma la intervale de 3-4 zile, pana ce consumul înceteaza complet (2-3 saptamani). In masura în care consumul înceteaza, deratizarea se considera încheiata. Moartea sobolanilor si soarecilor survine dupa 48 de ore de la consum.",
+        "tags":["sajt"]
+    },
+    {
+        "id": 20,
+        "name": "Statie Intoxicare Carton",
+        "price": 0.18,
+        "imageSource": "https://eco-sistem.ro/images/prod/SIM-125.jpg",
+        "description": "Statie de intoxicare/ cutie pentru otrava soareci cu doua intari, din carton cerat, stabil. Potrivit pentru interior.",
+        "tags":["sajt"]
+    },
+    {
+        "id": 21,
+        "name": "Placa Adeziva Soareci",
+        "price": 1.07,
+        "imageSource": "https://eco-sistem.ro/images/prod/CAM-173-new.jpg",
+        "description": "Este o placa adeziva cu continut de atractant pentru monitorizarea si capturarea rozatoarelor, fara a fi necesara utilizarea raticidelor ( otrava / momeala ). Adezivul special al capcanei este eficient chiar si la temperaturi joase si la alte conditii dificile de mediu. Capcana de unica folosinta poate fi aruncata dupa îndepă rtarea capturii. Se utilizeaza în locatii unde nu este posibila utilizarea raticidelor sau a altor substante de origine chimica cum ar fi: industria farmaceutica, industria alimentaral si alte locuri frecventate de copii sau animale. Se pozitioneaza în apropierea usilor, pe langa peretii depozitelor/ garajelor, in cantine, birouri si panourilor electrice etc. Se recomanda protejarea placii adezive de praf, astfel se prelungeste perioada activa a adezivului.",
+        "tags":["sajt"]
+    },
+    {
+        "id": 22,
+        "name": "Procum Cub",
+        "price": 6.43,
+        "imageSource": "https://eco-sistem.ro/images/prod/Prokum-cub.jpg",
+        "description": "Pentru combaterea soarecilor si sobolanilor in spatii inchise cu grad ridicat de umiditate ex. locuinte, grajduri si cladiri agricole, cazarmi, magazii, vagoane, containere etc. respectiv in spatii deschise ex. gradini, depozite de deseuri, canalizari, scurgeri de apa, maluri de apa, locuri de depozitare a gunoaielor etc. Se amplaseaza in zone umede, unde celelalte tipuri de raticide nu pot fi folosite. PROBRODIRAT CUB PARAFINAT este o momeala raticida pe baza de anticoagulant, pe suport de cereale maruntite si parafinate. Brodifacoum-ul actioneaza prin blocarea procesului de sinteza a protrombinei si permeabilizarii peretelui vaselor capilare. Moartea survine dupa 48 de ore de la ingerarea momelii. Momeala contine benzoat de denatonium (bitrex), o substanta foarte amara, care previne consumul accidental de catre alte animale. Suportul de cereale este tratat termic, pentru combaterea gargaritei cerealelor. ",
+        "tags":["sajt"]
+    },
+    {
+        "id": 23,
+        "name": "Statie Intoxicare FINICON",
+        "price": 0.92,
+        "imageSource": "https://eco-sistem.ro/images/prod/DSCF0462.jpg",
+        "description": "Statie de intoxicare foarte simpla, material rezistent, prevazut cu doua intrari, cu cheie. Se utilizeaza momeli solide. Potrivit pentru pozitionare in colturile incaperilor. Se poate utiliza in toate domeniile atat interior cat si exterior. Material: plastic negru",
+        "tags":["sajt"]
+    },
+    {
+        "id": 24,
+        "name": "Statie Intoxicare Carton",
+        "price": 0.18,
+        "imageSource": "https://eco-sistem.ro/images/prod/SIM-125.jpg",
+        "description": "Statie de intoxicare/ cutie pentru otrava soareci cu doua intari, din carton cerat, stabil. Potrivit pentru interior.",
+        "tags": ["rat"]
+    }
+]

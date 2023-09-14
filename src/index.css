@@ -1,0 +1,209 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(resources/fonts/panton.black-italic-caps.otf);
+}
+
+@font-face {
+  font-family: myFirstFont2;
+  src: url(resources/fonts/panton.light-italic-caps.otf);
+}
+
+@font-face {
+  font-family: myFirstFont3;
+  src: url(resources/fonts/panton.black-caps.otf);
+}
+
+@font-face {
+  font-family: myFirstFont4;
+  src: url(resources/fonts/panton.light-caps.otf);
+}
+
+
+:root {
+  --divided-into: 1;
+  transition-duration: 150ms;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  :root {
+    --divided-into: 1;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  :root {
+    --divided-into: 2;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  :root {
+    --divided-into: 3;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  :root {
+    --divided-into: 4;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  :root {
+    --divided-into: 5;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 2000px) {
+  :root {
+    --divided-into: 6;
+  }
+}
+
+@media only screen and (min-width: 2800px) {
+  :root {
+    --divided-into: 7;
+  }
+}
+
+@media only screen and (min-width: 3200px) {
+  :root {
+    --divided-into: 8;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: myFirstFont3;
+  font-weight: bold;
+  background-color: var(--main-bg-color);
+  user-select: none;
+  --main-bg-color: #121212;
+  --secondary-bg-color: #ffffff12;
+  --header-font-size: calc(2vw + 1rem);
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(var(--divided-into), 1fr);
+}
+
+.productContainer {
+  display: flex;
+  height: calc(100vw/var(--divided-into));
+  width: calc(100vw/var(--divided-into));
+  overflow: hidden;
+  background-color: var(--secondary-bg-color);
+  color: #ffffffa8;
+  border-radius: 1%;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+
+.productBottomPart {
+  display: flex;
+}
+
+.productImage {
+  height: calc(100vw/var(--divided-into));
+  width: calc(100vw/var(--divided-into));
+  padding: 0.3vw;
+  border-radius: 1%;
+  position: absolute;  
+  z-index: 1;
+}
+
+.productName {
+  line-height: 0.8;
+  position: absolute;
+  color: #121212de;
+  font-size: calc(var(--header-font-size)*0.60);
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.productPrice {
+  position: absolute;  
+  font-size: calc(var(--header-font-size)*0.50);
+  color: #121212de;
+  top: 88%;
+  left: 75%;
+  transform: translate(-50%, -50%);  
+  z-index: 1;
+}
+
+.addToCartArea {
+  position: absolute;
+  font-size: calc(var(--header-font-size)*0.30);
+  top: 88%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  z-index: 2;  
+}
+
+ul {
+  margin: 0;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  background-color: #2a2a2a;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+  height: 4vh;
+  max-height: 4vh;
+  font-size: var(--header-font-size);
+  position: sticky;
+  top: 0%;
+  overflow: hidden;
+  z-index: 2;
+}
+
+li a {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color: #ffffff64;
+}
+
+li a:focus-visible {
+  outline: none;
+  color: #000;
+}
+
+li a.active {
+  color: #ffffffa5;
+  text-shadow: 0 0 2px #ffffffa5;
+}
+
+li a:hover {
+  color: #ffffffd2;
+  text-shadow: 1px 1px 4px #ffffffd2;
+}
+
+#home a.active {
+  color: #00ff1e45;
+  text-shadow: 0 0 2px #00ff1e45;
+}
+
+#home a:hover {
+  color: #00ff1e92;
+  text-shadow: 1px 1px 4px #00ff1e92;
+}
+
+td > p{
+  color: #ffffffa2;
+}

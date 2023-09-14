@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "name": "Despre noi",
+        "backgroundImg": "images/bg1.jpg",
+        "foregroundImg": {
+            "image1":"https://www.replicahd.ro/wp-content/uploads/2023/05/2-8-640x445.jpg",
+            "image2":"https://ecopestexpert.ro/wp-content/uploads/2020/09/Servicii-Deratizare-Vaslui-Iasi-Neamt-suceava-Bacau-Botosani-vaslui.jpg"
+        },
+        "description": "Societatea noastra de prestari servicii cu specialisti examinati, cu experienta in domeniu, va ofera rezolvari in problemele de combaterea daunatorilor prin folosirea unei game diversificate de produse si echipamente de ultima generatie, ecologice, biodegradabile cu eficienta in siguranta alimentara si sanatate publica si fara impact  asupra mediului inconjurator. "
+    },
+    {
+        "id": 2,
+        "name": "Lucrari de dezinsectie",
+        "backgroundImg": "images/bg2.jpg",
+        "foregroundImg": "https://eco-sistem.ro/images/prod/SIR103.1.jpg",
+        "description": "se si echipamente de ultima generatie, ecologice, biodegradabile cu eficienta "
+    },
+    {
+        "id": 3,
+        "name": "Istoric",
+        "backgroundImg": "images/bg1.jpg",
+        "foregroundImg": "https://eco-sistem.ro/images/prod/SIR103.1.jpg",
+        "description": "se si echipamente de ultima generatie, ecologice, biodegradabile cu eficienta "
+    },
+    {
+        "id": 4,
+        "name": "Info",
+        "backgroundImg": "images/bg2.jpg",
+        "foregroundImg": "https://eco-sistem.ro/images/prod/SIR103.1.jpg",
+        "description": "se si echipamente de ultima generatie, ecologice, biodegradabile cu eficienta "
+    },
+    {
+        "id": 5,
+        "name": "Noutati",
+        "backgroundImg": "images/bg1.jpg",
+        "foregroundImg": "https://eco-sistem.ro/images/prod/SIR103.1.jpg",
+        "description": "se si echipamente de ultima generatie, ecologice, biodegradabile cu eficienta "
+    }
+]

@@ -1,0 +1,19 @@
+[{
+    "id": 1,
+    "name": "Szabo Szandor",
+    "imageSource": "https://eco-sistem.ro/images/prod/SIR103.1.jpg",
+    "locatie": "Sighisoara ",
+    "numar de telefon": "073243643"
+},{
+    "id": 2,
+    "name": "Szabo Gabriella",
+    "imageSource": "https://eco-sistem.ro/images/prod/SIR103.1.jpg",
+    "locatie": "Sighisoara ",
+    "numar de telefon": "073243643"
+},{
+    "id": 3,
+    "name": "Ivanov Sandor",
+    "imageSource": "https://eco-sistem.ro/images/prod/SIR103.1.jpg",
+    "locatie": "Oradea ",
+    "numar de telefon": "073243643"
+}]

@@ -1,0 +1,51 @@
+.teamContainer {
+    height: 96vh;    
+    max-height: 96vh;
+    width: calc(100vw / 3);
+    max-width: calc(100vw / 3);
+    display: inline-flex;
+    align-content: flex-start;
+    justify-content: space-around;
+    overflow: hidden;
+}
+.teamContainer:hover{
+    filter: hue-rotate(100deg) sepia() ;
+    transition-duration: 600ms;
+    overflow: hidden;
+}
+.teamContainer:hover .locationImage{
+    
+    object-position: left;
+}
+
+.locationImage {
+    height: 96vh;
+    max-height: 96vh;
+    width: calc(100vw / 3);
+    max-width: calc(100vw / 3);
+    align-self: flex-start;
+    position: absolute;    
+    z-index: 0;
+    object-fit: cover;
+    filter: saturate(1.5);
+    transition-duration: 600ms;
+    overflow: hidden;
+}
+
+.teamCity {
+    font-size: 3vw;
+    position: absolute;
+    margin-top: 69vh;
+    z-index: 1;
+    text-shadow: -0.15vh -0.15vh 0 #000, 0.15vh -0.15vh 0 #000, -0.15vh 0.15vh 0 #000, 0.15vh 0.15vh 0 #000;
+    overflow: hidden;
+}
+.teamCity:hover{
+    object-position: left;
+    filter: hue-rotate(100deg) sepia() ;
+    transition-duration: 600ms;
+    overflow: hidden;
+}
+
+
+
