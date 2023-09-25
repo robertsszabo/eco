@@ -21,6 +21,7 @@
 
 :root {
   --divided-into: 1;
+  --header-font-size: calc(2vw + 0.1rem);
   transition-duration: 150ms;
 }
 
@@ -28,6 +29,7 @@
 @media only screen and (max-width: 600px) {
   :root {
     --divided-into: 1;
+    --header-font-size: calc(2vw + 0.2rem);
   }
 }
 
@@ -35,6 +37,7 @@
 @media only screen and (min-width: 600px) {
   :root {
     --divided-into: 2;
+    --header-font-size: calc(2vw + 0.3rem);
   }
 }
 
@@ -42,6 +45,7 @@
 @media only screen and (min-width: 768px) {
   :root {
     --divided-into: 3;
+    --header-font-size: calc(2vw + 0.4rem);
   }
 }
 
@@ -49,6 +53,7 @@
 @media only screen and (min-width: 992px) {
   :root {
     --divided-into: 4;
+    --header-font-size: calc(2vw + 0.6rem);
   }
 }
 
@@ -56,6 +61,7 @@
 @media only screen and (min-width: 1200px) {
   :root {
     --divided-into: 5;
+    --header-font-size: calc(2vw + 0.7rem);
   }
 }
 
@@ -63,18 +69,21 @@
 @media only screen and (min-width: 2000px) {
   :root {
     --divided-into: 6;
+    --header-font-size: calc(2vw + 0.8rem);
   }
 }
 
 @media only screen and (min-width: 2800px) {
   :root {
     --divided-into: 7;
+    --header-font-size: calc(2vw + 0.9rem);
   }
 }
 
 @media only screen and (min-width: 3200px) {
   :root {
     --divided-into: 8;
+    --header-font-size: calc(2vw + 1rem);
   }
 }
 
@@ -86,7 +95,7 @@ body {
   user-select: none;
   --main-bg-color: #121212;
   --secondary-bg-color: #ffffff12;
-  --header-font-size: calc(2vw + 1rem);
+
 }
 
 .wrapper {
@@ -119,38 +128,35 @@ body {
   width: calc(100vw/var(--divided-into));
   padding: 0.3vw;
   border-radius: 1%;
-  position: absolute;  
-  z-index: 1;
+  position: absolute;
+  z-index: 0;
 }
 
 .productName {
   line-height: 0.8;
-  position: absolute;
   color: #121212de;
-  font-size: calc(var(--header-font-size)*0.60);
-  top: 18%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  font-size: calc(8vw/var(--divided-into));
+  width: 100%;
+  height: 100%;
   z-index: 1;
 }
 
 .productPrice {
-  position: absolute;  
-  font-size: calc(var(--header-font-size)*0.50);
+  font-size: calc(8vw/var(--divided-into));
   color: #121212de;
-  top: 88%;
-  left: 75%;
-  transform: translate(-50%, -50%);  
-  z-index: 1;
+  width: 50%;
+  height: 20%;
+  z-index: 2;
+  text-align: center;
+  padding-top: 0.5vh;
 }
 
 .addToCartArea {
-  position: absolute;
-  font-size: calc(var(--header-font-size)*0.30);
-  top: 88%;
-  left: 30%;
-  transform: translate(-50%, -50%);
+  font-size: calc(10vw/var(--divided-into));
+  width: 50%;
+  height: 20%;
   z-index: 2;  
+  text-align: center;
 }
 
 ul {
@@ -204,6 +210,37 @@ li a:hover {
   text-shadow: 1px 1px 4px #00ff1e92;
 }
 
-td > p{
+td>p {
   color: #ffffffa2;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.table {
+  --bs-table-bg-type: darkslategrey;
+  font-size: 2vh;
+  font-family: 'myFirstFont4';
+  font-weight: 800;
+  padding: 0rem 0rem;
+  --bs-table-hover-bg: unset;
+}
+
+.table>:not(caption)>*>* {
+  padding: 0rem 0rem;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  border-color: inherit;
+  border-style: hidden;
+  border-width: 0px;
+}
+
+.button {
+  background-color: darkslategrey
 }

@@ -1,25 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { useShoppingCart } from "../../context/ShoppingCartContext";
-
-
-function logoutUser() {
-  localStorage.clear("token");
-  localStorage.clear("user");
-  window.location.href = "/";
-}
-
-function getUsername() {
-  const user = JSON.parse(localStorage.getItem("user"));
-  return user ? user.username : "";
-}
-
-function isLoggedIn() {
-  return localStorage.getItem("user");
-}
+import { useAuth } from "../../context/AuthContext"
 
 function Navbar() {
   const { openCart, cartQuantity } = useShoppingCart();
+  const { currentUser, logout } = useAuth()
   return (
     <div>
       <ul>
@@ -36,11 +22,10 @@ function Navbar() {
           <NavLink to="/contact">Contact</NavLink>
         </li>
         <li>
-          {isLoggedIn() ? (
-            <a href="/" onClick={logoutUser}>
-              {" "}
-              logout {getUsername()}
-            </a>
+          {currentUser ? (
+            <NavLink to="/" onClick={logout}>
+              logout
+            </NavLink>
           ) : (
             <NavLink to="/login">Login</NavLink>
           )}
@@ -49,21 +34,26 @@ function Navbar() {
           <img
             src="../../images/basket.jpg"
             alt=""
-            width="80px"
-            height="80px"
+            
+            style={{width: "4vh",
+            height: "4vh",    
+            
+            position: "absolute",        
+            right: "1vw",
+            top: "0vh",
+            borderRadius:"50%"}}
             onClick={openCart}
           />
 
           <div
-            className="rounded-circle bg-danger d-flex justify-content-center align-items-center"
+            className=" d-flex justify-content-center align-items-center"
             style={{
               color: "white",
-              width: "1.5rem",
-              height: "1.5rem",
+              width: "1vh",
+              height: "1vh",
               position: "absolute",
-              bottom: 20,
-              right: 50,
-              transform: "translate(25%, 25%)",
+              top: "1vw",
+              right: "3vw"
             }}
           >
             {cartQuantity}

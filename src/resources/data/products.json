@@ -192,7 +192,7 @@
         "tags":["sajt"]
     },
     {
-        "id": 1,
+        "id": 25,
         "name": "Ristorat",
         "price": 8.20,
         "imageSource": "https://eco-sistem.ro/images/prod/SIR103.1.jpg",
@@ -200,7 +200,7 @@
         "tags":["sajt"]
     },
     {
-        "id": 2,
+        "id": 26,
         "name": "AWB",
         "price": 4.99,
         "imageSource": "https://eco-sistem.ro/images/prod/SIR101.18.jpg",
@@ -208,7 +208,7 @@
         "tags":["sajt"]
     },
     {
-        "id": 3,
+        "id": 27,
         "name": "Roddent Baiters",
         "price": 4.28,
         "imageSource": "https://eco-sistem.ro/images/prod/SIR101.5.jpg",
@@ -216,7 +216,7 @@
         "tags":["sajt"]
     },
     {
-        "id": 4,
+        "id": 28,
         "name": "Bora",
         "price": 20,
         "imageSource": "https://eco-sistem.ro/images/prod/SIR102.2.jpg",
@@ -224,7 +224,7 @@
         "tags":["sajt"]
     },
     {
-        "id": 5,
+        "id": 29,
         "name": "Penta Plastic",
         "price": 8.20,
         "imageSource": "https://eco-sistem.ro/images/prod/SIR10726.jpg",
@@ -232,7 +232,7 @@
         "tags":["sajt"]
     },
     {
-        "id": 6,
+        "id": 30,
         "name": "Delta",
         "price": 4.99,
         "imageSource": "https://eco-sistem.ro/images/prod/SIR106.3.jpg",
@@ -240,7 +240,7 @@
         "tags":["sajt"]
     },
     {
-        "id": 7,
+        "id": 31,
         "name": "Metal Easy",
         "price": 11.99,
         "imageSource": "https://eco-sistem.ro/images/prod/SIR105.2.jpg",
@@ -248,7 +248,7 @@
         "tags":["sajt"]
     },
     {
-        "id": 8,
+        "id": 32,
         "name": "Prodiorat cub",
         "price": 6.43,
         "imageSource": "https://eco-sistem.ro/images/prod/ProdioratCub.jpg",
@@ -256,7 +256,7 @@
         "tags":["sajt"]
     },
     {
-        "id": 9,
+        "id": 33,
         "name": "Alpha Tunnel",
         "price": 2.97,
         "imageSource": "https://eco-sistem.ro/images/prod/SIR-108.4.jpg",
@@ -264,7 +264,7 @@
         "tags":["sajt"]
     },
     {
-        "id": 10,
+        "id": 34,
         "name": "Beta",
         "price": 7.62,
         "imageSource": "https://eco-sistem.ro/images/prod/SIR101.18.jpg",
@@ -272,7 +272,7 @@
         "tags":["sajt"]
     },
     {
-        "id": 11,
+        "id": 35,
         "name": "model VE",
         "price": 2.67,
         "imageSource": "https://cdn.quicq.io/pm-d2ac76g66dj6h3/catalog/product/cache/1/image/450x450/9df78eab33525d08d6e5fb8d27136e95/c/a/capcana-sobolani-lemn-luna-1.jpg",
@@ -280,7 +280,7 @@
         "tags":["sajt"]
     },
     {
-        "id": 12,
+        "id": 36,
         "name": "AWB",
         "price": 20,
         "imageSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/McDonald%27s_Golden_Arches.svg/800px-McDonald%27s_Golden_Arches.svg.png",
@@ -288,7 +288,7 @@
         "tags":["sajt"]
     },
     {
-        "id": 13,
+        "id": 37,
         "name": "Capcana Soareci",
         "price": 8.20,
         "imageSource": "https://cdn.quicq.io/pm-d2ac76g66dj6h3/catalog/product/cache/1/image/450x450/9df78eab33525d08d6e5fb8d27136e95/c/a/capcana-sobolani-lemn-luna-1.jpg",
@@ -296,7 +296,7 @@
         "tags":["sajt"]
     },
     {
-        "id": 14,
+        "id": 38,
         "name": "Pulverizator Gloria 505T",
         "price": 308.21,
         "imageSource": "https://eco-sistem.ro/images/prod/ig103.jpg",
@@ -304,7 +304,7 @@
         "tags":["sajt"]
     },
     {
-        "id": 15,
+        "id": 39,
         "name": "Pulverizator Mestro Plus V2A",
         "price": 291.55,
         "imageSource": "https://eco-sistem.ro/images/prod/ig104.jpg",
@@ -312,7 +312,7 @@
         "tags":["sajt"]
     },
     {
-        "id": 16,
+        "id": 40,
         "name": "AMB",
         "price": 0.95,
         "imageSource": "https://eco-sistem.ro/images/prod/AMB.jpg",
@@ -320,7 +320,7 @@
         "tags":["sajt"]
     },
     {
-        "id": 17,
+        "id": 41,
         "name": "Placa Adeziva",
         "price": 0.99,
         "imageSource": "https://eco-sistem.ro/images/prod/CAM-173.jpg",
@@ -328,7 +328,7 @@
         "tags":["sajt"]
     },
     {
-        "id": 18,
+        "id": 42,
         "name": "Statie Intoxicare Carton",
         "price": 0.20,
         "imageSource": "https://eco-sistem.ro/images/prod/SIM126.1.jpg",
@@ -336,7 +336,7 @@
         "tags":["sajt"]
     },
     {
-        "id": 19,
+        "id": 43,
         "name": "Momeala Prokum pasta",
         "price": 8.09,
         "imageSource": "https://eco-sistem.ro/images/prod/prokum-pasta.jpg",
@@ -344,7 +344,7 @@
         "tags":["sajt"]
     },
     {
-        "id": 20,
+        "id": 44,
         "name": "Statie Intoxicare Carton",
         "price": 0.18,
         "imageSource": "https://eco-sistem.ro/images/prod/SIM-125.jpg",
@@ -352,7 +352,7 @@
         "tags":["sajt"]
     },
     {
-        "id": 21,
+        "id": 45,
         "name": "Placa Adeziva Soareci",
         "price": 1.07,
         "imageSource": "https://eco-sistem.ro/images/prod/CAM-173-new.jpg",
@@ -360,7 +360,7 @@
         "tags":["sajt"]
     },
     {
-        "id": 22,
+        "id": 46,
         "name": "Procum Cub",
         "price": 6.43,
         "imageSource": "https://eco-sistem.ro/images/prod/Prokum-cub.jpg",
@@ -368,7 +368,7 @@
         "tags":["sajt"]
     },
     {
-        "id": 23,
+        "id": 47,
         "name": "Statie Intoxicare FINICON",
         "price": 0.92,
         "imageSource": "https://eco-sistem.ro/images/prod/DSCF0462.jpg",
@@ -376,7 +376,7 @@
         "tags":["sajt"]
     },
     {
-        "id": 24,
+        "id": 48,
         "name": "Statie Intoxicare Carton",
         "price": 0.18,
         "imageSource": "https://eco-sistem.ro/images/prod/SIM-125.jpg",

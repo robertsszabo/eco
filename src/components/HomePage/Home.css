@@ -16,6 +16,7 @@
     z-index: 0;
     position: absolute;
     overflow: hidden;
+    filter: blur(20px) contrast(50%) saturate(250%);
 }
 .foregroundImg {
     width: 50vw;
@@ -27,17 +28,70 @@
     border: 3px solid black;
 }
 
+.categories{    
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 
-.homePostContainer .postTitle {
+.categoriesImg {
+    border-radius: 50%;    
+    padding-top: 4vh;
+    position: absolute;
+    width: 10vh;    
+    scale: 100%;
+    filter: invert(30%);
+    z-index: 1;
+    
+}
+.category{
+    text-align: center;
+    display: flex;
+    height: 14vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.greaterandinverted {    
+    border-radius: 50%;  
+    padding-top: 4vh;
+    position: absolute;
+    width: 10vh;    
+    scale: 105%;
+    filter: invert(80%);
+    z-index: 0;    
+}
+
+.category:hover .categoriesImg{
+    filter: invert(30%);
+    scale: 105%;
+    z-index: 0;
+}
+.category:hover .greaterandinverted{
+    filter: invert(80%);
+    scale: 100%;
+    z-index: 1; 
+}
+
+
+.title {
     color: #ffffff;
     text-shadow: -0.03vh -0.03vh 0 #000, 0.03vh -0.03vh 0 #000, -0.03vh 0.03vh 0 #000, 0.03vh 0.03vh 0 #000;
-    font-size: 5vh;
+    font-size: 3vh;
     position: absolute;
     z-index: 1;
-    overflow: hidden;    
-    width: 20vw;
-    height: 20vh;
-    transform: translate(50%, 50%);
+    overflow: hidden;
+}
+.subtitle {
+    color: #ffffffb2;
+    text-shadow: -0.03vh -0.03vh 0 #000, 0.03vh -0.03vh 0 #000, -0.03vh 0.03vh 0 #000, 0.03vh 0.03vh 0 #000;
+    font-size: 2vh;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
 }
 
 .homePostContainer .postDescription {
@@ -70,21 +124,27 @@
 /* width */
 .postsContainer::-webkit-scrollbar {
     width: 1vw;
-
+    position: relative;
+    
+    filter: opacity(25%);
 }
 
 /* Track */
 .postsContainer::-webkit-scrollbar-track {
-    background: rgba(255, 255, 255, 0);
-    display: none;
+    background: rgba(255, 255, 255, 0.05);
+    filter: opacity(1%);
 }
 
 /* Handle */
 .postsContainer::-webkit-scrollbar-thumb {
     background: rgb(255, 255, 255);
+    
+    filter: opacity(1%);
 }
 
 /* Handle on hover */
 .postsContainer::-webkit-scrollbar-thumb:hover {
     background: #555;
+    
+    filter: opacity(1%);
 }

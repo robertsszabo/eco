@@ -14,16 +14,21 @@ function OpenedProduct({ product }) {
   const quantity = getItemQuantity(id);
 
   return (
-    <Card style={{ position: "relative" }}>
-      <Card.Header style={{ position: "absolute", height: "3vh", top: "2vh", left: "50%", transform: "translate(-50%, -50%)", fontSize: "4vh" }}></Card.Header>
+    <Card style={{ height: "100%" }}>
+      <div className="d-felx" style={{height:"50%"}}>
       <Card.Img variant="top" src={imageSource} style={{
-        position: "absolute",
-        width: "100%", height: "30vh", top: "18vh", left: "50%", transform: "translate(-50%, -50%)"
+        width: "50%",
+        height: "100%"
       }} />
+           <Card.Img variant="top" src={imageSource} style={{
+        width: "50%",
+        height: "100%"
+      }} />
+      </div>
 
-      <Card.Text style={{ position: "absolute", width: "100%", height: "30vh", top: "50vh", left: "50%", transform: "translate(-50%, -50%)" }}>
+      <Card.Text style={{width: "100%", height: "15%"}}>
         <Table striped bordered hover>
-          <tbody style={{ textShadow: "-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black" }}>
+          <tbody style={{ textShadow: "-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black",lineHeight: "100%"}}>
             <tr>
               <td><p>Material:</p></td>
               <td><p>Plastic</p></td>
@@ -52,9 +57,10 @@ function OpenedProduct({ product }) {
           </tbody>
         </Table>
       </Card.Text>
-      <Card.Text style={{ position: "absolute", width: "100%", top: "50vh", left: "50%", transform: "translate(-50%, -50%)" }}>{description}</Card.Text>
+      <Card.Text style={{width: "100%",height:"25%" }}>{description}</Card.Text>
       {quantity === 0 ? (
-        <Button style={{ position: "absolute", width: "100%", height: "5vh", top: "75vh", left: "50%", transform: "translate(-50%, -50%)" }} onClick={() => increaseCartQuantity(id)}>
+        <Button style={{
+          width: "100%", height: "8%"}} onClick={() => increaseCartQuantity(id)}>
           + Add To Cart
         </Button>
       ) : (

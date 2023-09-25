@@ -1,8 +1,8 @@
 [
     {
         "id": 1,
-        "name": "Despre noi",
-        "backgroundImg": "images/bg1.jpg",
+        "name": "Categorii de daunatori",
+        "backgroundImg": "images/bg2.jpg",
         "foregroundImg": {
             "image1":"https://www.replicahd.ro/wp-content/uploads/2023/05/2-8-640x445.jpg",
             "image2":"https://ecopestexpert.ro/wp-content/uploads/2020/09/Servicii-Deratizare-Vaslui-Iasi-Neamt-suceava-Bacau-Botosani-vaslui.jpg"
